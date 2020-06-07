@@ -1,10 +1,9 @@
-# 13903-Regentview-Ave-Bellflower-CA-90706
-# Step 1: Authenticate
-$0.00002986 XRP~/GH_TOKEN.txt | docker login docker.pkg.github.com -u BitCashCF --password-stdin
 
-# Step 2: Tag
-$100,000,000 docker tag B8628244.pkg.github.com/bitcashcf/repository-name/IMAGE_NAME:VERSION
+	
+GET /api/v1/country/list? HTTP/1.1
 
-# Step 3: Publish
-$ 100,000,000 Amazon ecs docker push docker.pkg.github.com/bitcashcf/repository-name/IMAGE_NAME:VERSION
+Host: www.forticwp.com
 
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6IkFQSSIsImlzcyI6ImZhdXRoLXNlcnZlciIsImhvc3QiOlsiRkNXUCJdLCJleHAiOjE1ODY5MTUxNjQsImFpZCI6InFhLmNhc2IxQGdtYWlsLmNvbSJ9.Hh2yVHEEd73BJ31rEjB2C-iclodmMigEPIwtuRwCObo
+
+Content-Type: application/json
